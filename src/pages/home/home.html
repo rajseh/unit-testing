@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<div *ngFor="let udetails of data">
+    <custom userimage={{udetails.userImage}} name={{udetails.name}} title={{udetails.title}} content={{udetails.content}}></custom>
+</div>
+   
+
+</ion-content>

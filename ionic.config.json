@@ -1,0 +1,8 @@
+{
+  "name": "customComponent",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "id": "cf131ae1"
+}
